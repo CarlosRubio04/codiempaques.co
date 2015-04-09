@@ -1,5 +1,4 @@
 <?php
-	
-	$con = mysqli_connect("localhost","root","root","u582612229_ilp")or die("DB Error");
-	mysqli_query($con,"SET NAMES utf8");
+	//$con = mysqli_connect("localhost","","","")or die("DB Error");
+	//mysqli_query($con,"SET NAMES utf8");
 	?>
