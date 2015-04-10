@@ -5,6 +5,33 @@
    ========================================================================== */
 
 
+ /*footer*/
+ body{
+ 	background-color: transparent;
+ 	background-image: url(../img/fondo.jpg);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ }
+
+ #footer{
+ 	background-color: #fff;
+ }
+.footer{
+	text-align: center;
+	color: #6b797f;
+}
+span{
+	text-align: center;
+	background-color: #6b797f;
+	color: #fff;
+	padding: 3px;
+	margin: 0 3px 0 0;
+	text-align: center;
+	font-size: 25px;
+}
+
+
+
 
 
 
