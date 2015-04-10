@@ -4,14 +4,37 @@
     <title>Codiempaques</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap2.min.css">
+    <link rel="stylesheet" href="fonts/din_regular.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="css/variables.less" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="css/bootstrap2.css" type="text/css" charset="utf-8" />
     <style>
         body {
         padding-top: 50px;
         padding-bottom: 20px;
         }
+        .loader{
+        background: rgba(0,0,0,0.7);
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 100000;
+        }
+        .loader img{
+        position: relative;
+        left: 50%;
+        top: 50%;
+        margin: -25px 0 0 -25px;
+        }
+        .loader .contentss {
+        position: relative;
+        text-align: center;
+        color: #fff;
+        margin-left: 10px;
+        top: 50%;
+        }
     </style>
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
     <link rel="stylesheet" href="css/main.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

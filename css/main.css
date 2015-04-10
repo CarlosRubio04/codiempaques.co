@@ -3,22 +3,118 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, a, p{
+	padding-top: 10px;
+}
 
+.form-control {
+	
+	padding: 15px 12px 5px;
+}
 
- /*footer*/
- body{
+.navbar-brand {
+	padding: 20px 15px 15px;
+}
+
+body {
+    color: #333;
+    font-family:'Din_Regular',Sans-Serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+bodys .helvetica {
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+.btn {
+    padding: 10px 12px 1px;
+    
+}
+	
+/*Home*/
+
+body.home{
  	background-color: transparent;
  	background-image: url(../img/fondo.jpg);
  	background-size: cover;
  	background-repeat: no-repeat;
  }
+ 
+.hold {
+	margin-bottom: 50px;
+}
 
- #footer{
+.copyhome{
+	padding-left: 50px;
+	padding-top: 30px;
+	
+}
+
+.copyhome h2{
+	margin-top: 0px;
+	font-size: 70px; 
+	color: rgb(255, 255, 255); 
+	margin-bottom: 0px;
+}
+
+.copyhome p{
+	color: rgb(255, 255, 255); 
+	font-size: 36px; 
+	letter-spacing: 2px; 
+	margin-top: -20px; 
+	line-height: 1.15; 
+	margin-bottom: 6px;
+	font-weight: 100;
+}
+
+.formhome{
+	margin-top: 27px;
+}
+/*footer*/
+.widget {
+	padding-bottom: 10px;
+}
+.widget h3 {
+	text-align: left;
+	font-size: 25px;
+	color: #70767B;
+	margin-bottom: 0px;
+}
+.widget img {
+	margin-top: 23px;
+}
+.widget p {
+	color: #70767B;
+	padding-top: 0px;
+}
+
+.feature-contents {
+	padding-left: 70px; 
+	padding-right: 10px;
+}
+#footer{
  	background-color: #fff;
  }
-.footer{
+ 
+.contact {
+	padding: 15px 30px;
+	
+}
+
+.contact .widget {
+	padding-left: 30px; 
+	padding-right: 30px;
+}  
+.copyright {
+	margin-top: 20px;
+}
+.copyright p{
 	text-align: center;
-	color: #6b797f;
+	color: #fff;
 }
 span{
 	text-align: center;
