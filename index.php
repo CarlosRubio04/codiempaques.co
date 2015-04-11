@@ -17,11 +17,11 @@
                     <div class="loader">
                         <img src="img/ajax-loader.gif" />
                     </div>
-                    <?php require_once('bloques/header.php'); ?>
+                    <?php require_once('bloques/headerhome.php'); ?>
                     <?php if(!isset($_REQUEST['content'])){
                         require_once('bloques/home.php');
-                        }elseif($_REQUEST['content']=='servicios'){
-                        require_once('bloques/servicios.php');
+                        }elseif($_REQUEST['content']=='productos'){
+                        require_once('bloques/productos.php');
                         }elseif($_REQUEST['content']=='contactenos'){
                         require_once('bloques/contactenos.php');
                         }else{
@@ -29,8 +29,9 @@
                         } ?>
                     <?php require_once('bloques/footer.php'); ?>
                     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-                    <script src="js/vendor/bootstrap.min.js"></script>
+
                     <script src="js/plugins.js"></script>
+                    <script src="js/vendor/owl.carousel.js"></script>
                     <script src="js/main.js"></script>
                     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
                     <script>

@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="fonts/din_regular.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="css/variables.less" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="css/bootstrap2.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="css/owl.transitions.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" href="css/owl.theme.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" type="text/css" charset="utf-8" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
+
     <style>
-        body {
-        padding-top: 50px;
-        padding-bottom: 20px;
-        }
+        
         .loader{
         background: rgba(0,0,0,0.7);
         position: fixed;

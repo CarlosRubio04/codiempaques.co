@@ -37,6 +37,7 @@ bodys .helvetica {
 	
 /*Home*/
 
+
 body.home{
  	background-color: transparent;
  	background-image: url(../img/fondo.jpg);
@@ -47,6 +48,11 @@ body.home{
 .hold {
 	margin-bottom: 50px;
 }
+.container-fluid{
+	height: 100px;
+	margin: 0 auto;
+}
+
 
 .copyhome{
 	padding-left: 50px;
@@ -74,6 +80,16 @@ body.home{
 .formhome{
 	margin-top: 27px;
 }
+
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-default {
+ 
+    border: none !important;
+}
+
 /*footer*/
 .widget {
 	padding-bottom: 10px;
