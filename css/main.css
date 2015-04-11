@@ -1,5 +1,4 @@
 
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -8,10 +7,29 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, a, p{
 }
 
 .form-control {
-	
 	padding: 15px 12px 5px;
+	background-color: transparent;
+	border-radius: 0px;
+	color: #fff;
 }
-
+.formhome{
+	border: 1px solid #fff;
+	padding: 15px;
+}
+.form-header{
+	background-color: #fff;
+	height: 45px;
+	text-align: right;
+	margin: -15px 0 0 0;
+	color: #70767B;
+}
+.form-title{
+	margin: -7px 0 0 0;
+}
+.send{
+	background-color: transparent;
+	border: none;
+}
 .navbar-brand {
 	padding: 20px 15px 15px;
 }
@@ -38,11 +56,15 @@ bodys .helvetica {
 /*Home*/
 
 
-body.home{
+body.back-home{
  	background-color: transparent;
  	background-image: url(../img/fondo.jpg);
  	background-size: cover;
  	background-repeat: no-repeat;
+ }
+
+ body.back-content{
+  	background-color: #fff;
  }
  
 .hold {
@@ -52,6 +74,7 @@ body.home{
 	height: 100px;
 	margin: 0 auto;
 }
+
 
 
 .copyhome{
@@ -112,15 +135,10 @@ body.home{
 	padding-left: 70px; 
 	padding-right: 10px;
 }
-#footer{
- 	background-color: #fff;
- }
- 
-.contact {
-	padding: 15px 30px;
-	
-}
 
+.contact {
+	padding: 15px 30px;	
+}
 .contact .widget {
 	padding-left: 30px; 
 	padding-right: 30px;
@@ -141,11 +159,106 @@ span{
 	text-align: center;
 	font-size: 25px;
 }
+.ico-map-home{
+	background-image: url(../img/icono-grey-map.png);
+	width: 50px;
+	height: 50px;
+	margin-top: 23px;
+	float: left;
+}
+.ico-tel-home{
+	background-image: url(../img/icono-grey-telephone.png);
+	width: 50px;
+	height: 50px;
+	margin-top: 23px;
+	float: left;
+}
+.ico-envelop-home{
+	background-image: url(../img/icono-grey-envelop.png);
+	width: 50px;
+	height: 50px;
+	margin-top: 23px;
+	float: left;
+}
+.ico-map-cont{
+	background-image: url(../img/icono-white-map.png);
+	width: 50px;
+	height: 50px;
+	margin-top: 23px;
+	float: left;
+}
+.ico-tel-cont{
+	background-image: url(../img/icono-white-telephone.png);
+	width: 50px;
+	height: 50px;
+	margin-top: 23px;
+	float: left;
+}
+.ico-envelop-cont{
+	background-image: url(../img/icono-white-envelop.png);
+	width: 50px;
+	height: 50px;
+	margin-top: 23px;
+	float: left;
+}
 
+/*contactenos*/
 
+.contacto{
+	font-size: 100px;
+	font-weight: bolder;
+	color: #7e7171;
+}
+.codi{
+	font-size: 43px;
+	font-weight: bold;
+	margin-top: -30px;
+	color: #7e7171;
+}
+.formulario-contactenos{
+	margin: 50px 0 0 0;
+}
+#back-content-foo .widget p{
+ 	color: #fff;
+ }
+ #back-content-foo .widget h3{
+ 	color: #fff;
+ }
+ #back-content-foo{
+ 	background-color: #70767B;
+ }
+#back-footer{
+ 	background-color: #fff;
+ 	border-radius: 0px;
+	border: 1px solid #70767B;
+	color: #fff;
+ }
 
+/*redes*/
+.pull-rigth ul li{
+	list-style: none;
+	display: inline-block;
+}
+.pull-rigth ul {
+	border: 1px solid #fff;
+}
+.pull-rigth li {
+	border-right: 1px solid #fff;
+	margin: 0 10px 0 0;
+}
 
+.pull-rigthC li {
+	border-right: 1px solid #70767B;
+	margin: 0 10px 0 0;
 
+}
+.pull-rigthC ul li{
+	list-style: none;
+	display: inline-block;
+}
+.pull-rigthC ul {
+	border: 1px solid  #70767B;
+}
 
 
 

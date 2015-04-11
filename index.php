@@ -13,15 +13,26 @@
             <html class="no-js" lang="es">
                 <!--<![endif]-->
                 <?php require_once('bloques/head.php'); ?>
-                <body class="home">
+                <?php require_once('bloques/redes.php'); ?>
+                <body class="<?php if(!isset($_REQUEST['content'])){
+                    echo "back-home";
+                }elseif ($_REQUEST['content']== 'productos' or 'contactenos' or 'info') {
+                    echo "back-content";
+                }
+                else{
+                    echo "back-home";
+                }?>">
                     <div class="loader">
                         <img src="img/ajax-loader.gif" />
                     </div>
+
                     <?php require_once('bloques/headerhome.php'); ?>
                     <?php if(!isset($_REQUEST['content'])){
                         require_once('bloques/home.php');
                         }elseif($_REQUEST['content']=='productos'){
                         require_once('bloques/productos.php');
+                        }elseif($_REQUEST['content']=='info'){
+                        require_once('bloques/info.php');
                         }elseif($_REQUEST['content']=='contactenos'){
                         require_once('bloques/contactenos.php');
                         }else{
@@ -29,7 +40,8 @@
                         } ?>
                     <?php require_once('bloques/footer.php'); ?>
                     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
+                    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+                    <script src="js/vendor/gmaps.js"></script>
                     <script src="js/plugins.js"></script>
                     <script src="js/vendor/owl.carousel.js"></script>
                     <script src="js/main.js"></script>
@@ -42,5 +54,18 @@
                         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
                         ga('create','UA-XXXXX-X','auto');ga('send','pageview');
                     </script>
+                    <script>
+                        $(document).ready(function(){
+                          var url = GMaps.staticMapURL({
+                            size: [715, 200],
+                            lat: 4.6302347012861516,
+                            lng: -74.12072724999996,
+                            markers: [
+                              {lat: 4.6302347012861516, lng: -74.12072724999996},
+                            ]
+                          });
+                          $('<img/>').attr('src', url).appendTo('#map');
+                        });
+                      </script>
                 </body>
             </html>
