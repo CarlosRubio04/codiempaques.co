@@ -7,7 +7,11 @@ echo '<div class="container">
 		<div class="col-md-3">
 			<div class="pull-rigth">
 				<ul>
-					<li>Busacar</li>
+					<li>
+						<a href="#">
+							<img src="./img/icono-face-grey.png" alt=""> Buscar
+						</a>
+					</li>
 					<li>
 						<a href="#">
 							<img style"width: 8px" src="./img/icono-face-white.png" alt="">
@@ -35,7 +39,11 @@ echo '<div class="container">
 		<div class="col-md-3">
 			<div class="pull-rigthC">
 				<ul>
-					<li>Busacar</li>
+					<li>
+						<a href="#">
+							<img src="./img/icono-face-grey.png" alt=""> Buscar
+						</a>
+					</li>
 					<li>
 						<a href="#">
 							<img src="./img/icono-face-grey.png" alt="">
@@ -64,7 +72,11 @@ echo '<div class="container">
 		<div class="col-md-3">
 			<div class="pull-rigth">
 				<ul>
-					<li>Busacar</li>
+					<li>
+						<a href="#">
+							<img src="./img/icono-face-grey.png" alt=""> Buscar
+						</a>
+					</li>
 					<li>
 						
 					</li>

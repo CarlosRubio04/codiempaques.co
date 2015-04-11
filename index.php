@@ -13,7 +13,7 @@
             <html class="no-js" lang="es">
                 <!--<![endif]-->
                 <?php require_once('bloques/head.php'); ?>
-                <?php require_once('bloques/redes.php'); ?>
+                
                 <body class="<?php if(!isset($_REQUEST['content'])){
                     echo "back-home";
                 }elseif ($_REQUEST['content']== 'productos' or 'contactenos' or 'info') {
@@ -25,9 +25,14 @@
                     <div class="loader">
                         <img src="img/ajax-loader.gif" />
                     </div>
-
-                    <?php require_once('bloques/headerhome.php'); ?>
-                    <?php if(!isset($_REQUEST['content'])){
+                    <?php 
+	                    if(!isset($_REQUEST['content'])){
+                        require_once('bloques/headerhome.php');
+                        }else{
+                        require_once('bloques/header.php');
+                        } 
+	                     require_once('bloques/redes.php'); 
+	                    if(!isset($_REQUEST['content'])){
                         require_once('bloques/home.php');
                         }elseif($_REQUEST['content']=='productos'){
                         require_once('bloques/productos.php');
