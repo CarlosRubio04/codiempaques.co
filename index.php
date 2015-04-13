@@ -14,14 +14,7 @@
                 <!--<![endif]-->
                 <?php require_once('bloques/head.php'); ?>
                 
-                <body class="<?php if(!isset($_REQUEST['content'])){
-                    echo "back-home";
-                }elseif ($_REQUEST['content']== 'productos' or 'contactenos' or 'info') {
-                    echo "back-content";
-                }
-                else{
-                    echo "back-home";
-                }?>">
+                <body id="<?php if(!isset($_REQUEST['content'])){echo "back-content";}?>" class="back-home">
                     <div class="loader">
                         <img src="img/ajax-loader.gif" />
                     </div>

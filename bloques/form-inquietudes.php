@@ -1,8 +1,6 @@
 <div class="col-md-12 form-header" style="margin-top: -21px; padding-top: 14px; height: 48px;">
     <img src="./img/icono-cuadro-gray.png" class="pull-left" alt="">
-    <h2 class="form-title" style="font-weight: 800;
-    letter-spacing: -1px;
-">Inquietudes?</h2>
+    <h2 class="form-title" style="font-weight: 800; letter-spacing: -1px;">Inquietudes?</h2>
 </div>
 <div class="formhome">
     <form id="contactenosfoot" name="contactenosfoot" novalidate="novalidate">

@@ -1,3 +1,28 @@
+body.back-home {
+  background-color: transparent;
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#back-content {
+  background-color: #fff;
+}
+
+body {
+  color: #333;
+  font-family: 'Din_Regular',Sans-Serif;
+  font-size: 14px;
+  line-height: 1.42857;
+}
+
+bodys .helvetica {
+  color: #333;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+}
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, a, p {
   padding-top: 10px;
 }
@@ -40,34 +65,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, a, p {
   padding: 20px 15px 15px;
 }
 
-body {
-  color: #333;
-  font-family: 'Din_Regular',Sans-Serif;
-  font-size: 14px;
-  line-height: 1.42857;
-}
 
-bodys .helvetica {
-  color: #333;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 14px;
-  line-height: 1.42857;
-}
 
 .btn {
   padding: 10px 12px 1px;
 }
 
-body.back-home {
-  background-color: transparent;
-  background-image: url(../img/fondo.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
-body.back-content {
-  background-color: #fff;
-}
 
 .hold {
   margin-bottom: 50px;
@@ -230,6 +234,16 @@ span {
   margin: 0 3px 0 0;
   text-align: center;
   font-size: 25px;
+}
+
+/*REDES*/
+
+.ico-face {
+  background-image: url(../img/icono-face-white.png);
+  width: 50px;
+  height: 50px;
+  margin-top: 23px;
+  float: left;
 }
 
 .pull-rigth ul li {
