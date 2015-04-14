@@ -14,17 +14,21 @@
                 <!--<![endif]-->
                 <?php require_once('bloques/head.php'); ?>
                 
-                <body id="<?php if(!isset($_REQUEST['content'])){echo "back-content";}?>" class="back-home">
+                <body id="<?php if(isset($_REQUEST['content'])){echo "back-content";}?>" class="back-home">
                     <div class="loader">
                         <img src="img/ajax-loader.gif" />
                     </div>
+                    <section class="wrap-content">
                     <?php 
 	                    if(!isset($_REQUEST['content'])){
                         require_once('bloques/headerhome.php');
                         }else{
                         require_once('bloques/header.php');
                         } 
-	                     require_once('bloques/redes.php'); 
+	                    require_once('bloques/redes.php'); 
+	                    ?>
+	                    
+	                <?php
 	                    if(!isset($_REQUEST['content'])){
                         require_once('bloques/home.php');
                         }elseif($_REQUEST['content']=='productos'){
@@ -35,7 +39,9 @@
                         require_once('bloques/contactenos.php');
                         }else{
                         require_once('bloques/home.php');
-                        } ?>
+                        } 
+                        ?>
+                      </section>  
                     <?php require_once('bloques/footer.php'); ?>
                     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
                     <script src="http://maps.google.com/maps/api/js?sensor=true"></script>

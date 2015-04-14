@@ -1,4 +1,4 @@
-<footer id="<?php if(isset($_REQUEST['content'])){echo "back-content-foo";}?>">
+<footer>
     <div class="container">
         <div class="row backfooter">
             <div class="col-md-12 contact">

@@ -18,7 +18,7 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav" style="margin-top: 30px; margin-left: 450px;">
-                            <li class="active"><a href="/" style="padding-top: 23px;">Inicio <span class="sr-only">(current)</span></a></li>
+                            <li class="active"><a href="index.php" style="padding-top: 23px;">Inicio <span class="sr-only">(current)</span></a></li>
                             <li><a href="?content=info" style="padding-top: 23px;">Info</a></li>
                             <li><a href="?content=productos" style="padding-top: 23px;">Productos</a></li>
                             <li><a href="?content=contactenos" style="padding-top: 23px;">Contacto</a></li>
