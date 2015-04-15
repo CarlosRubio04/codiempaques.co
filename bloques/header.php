@@ -20,9 +20,9 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav" style="margin-top: 30px; margin-left: 150px;">
                             <li class="active"><a href="index.php">Inicio <span class="sr-only">(current)</span></a></li>
-                            <li><a href="?content=info">Info</a></li>
-                            <li><a href="?content=productos">Productos</a></li>
-                            <li><a href="?content=contactenos">Contacto</a></li>
+                            <li><a href="index.php?content=info">Info</a></li>
+                            <li><a href="index.php?content=productos">Productos</a></li>
+                            <li><a href="index.php?content=contactenos">Contacto</a></li>
                             <li class="dropdown" style="display: none;">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">

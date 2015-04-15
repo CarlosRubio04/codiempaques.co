@@ -1,8 +1,8 @@
 <footer>
     <div class="container">
         <div class="row backfooter">
-            <div class="col-md-12 contact">
-                <div class="col-md-3">
+            <div class="col-xm-12 col-sm-12 col-md-12 col-lg-12 contact">
+                <div class="col-xm-12 col-sm-6 col-md-3 col-lg-3">
                     <div class="clearfix">
                         <div class="ico-map"></div>
                         <div class="feature-contents">
@@ -11,7 +11,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xm-12 col-sm-6 col-md-3 col-lg-3">
                     <div class="clearfix">
                         <div class="ico-tel"></div>
                         <div class="feature-contents">
@@ -20,7 +20,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xm-12 col-sm-6 col-md-3 col-lg-3">
                     <div class="clearfix">
                         <div class="ico-envelop"></div>
                         <div class="feature-contents">
@@ -29,7 +29,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xm-12 col-sm-6 col-md-3 col-lg-3">
                     <div class="clearfix">
                         <div class="clearfix">
                             <div class="ico-envelop"></div>
