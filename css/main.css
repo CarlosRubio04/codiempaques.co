@@ -53,7 +53,6 @@ body.back-home {
   font-weight: 800; 
   letter-spacing: -1px;
 }
-
 .send {
   background-color: transparent;
   border: none;
@@ -249,13 +248,13 @@ span {
 }
 .search {
 	float: left; 
-	padding-top: 5px; 
+	padding-top: 2px; 
 	color: #fff;
 }
-
 .search input{
-	border: none; 
-	width: 90px;
+  border: 1px solid #fff;; 
+	width: 95px;
+  float: left;
 }
 .ico-search {
   background-image: url(../img/icono-search-white.png);
@@ -276,7 +275,7 @@ span {
 
 .social-bar ul {
   border: 2px solid #fff;
-  padding: 10px 0px 0px 0px; 
+  padding: 5px 0px 0px 2px; 
   margin-bottom: 0px;
   margin-top: -200px;
 }
