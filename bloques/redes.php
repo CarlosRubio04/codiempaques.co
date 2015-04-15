@@ -1,7 +1,7 @@
 <section class="social-bar">
     <div class="container">
         <div class="row ">
-            <div class="col-md-offset-8 col-md-4 cont-social" align="right">
+            <div class="col-md-offset-8 col-md-4" align="center">
                 <ul class="pull-right">
                     <li class="search">
                         <div class="clearfix">
