@@ -18,7 +18,7 @@
                     <div class="loader">
                         <img src="img/ajax-loader.gif" />
                     </div>
-                    <section class="wrap-content">
+                    
                     <?php 
 	                    if(!isset($_REQUEST['content'])){
                         require_once('bloques/headerhome.php');
@@ -27,8 +27,8 @@
                         } 
 	                    require_once('bloques/redes.php'); 
 	                    ?>
-	                    
-	                <?php
+	                <section class="wrap-content" style="padding-bottom: 30px; padding-top: 30px;">
+					<?php
 	                    if(!isset($_REQUEST['content'])){
                         require_once('bloques/home.php');
                         }elseif($_REQUEST['content']=='productos'){

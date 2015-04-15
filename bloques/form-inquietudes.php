@@ -1,6 +1,6 @@
-<div class="col-md-12">
+
     <div class="col-md-12 form-header">
-        <img src="./img/icono-cuadro-gray.png" class="pull-left" alt="">
+        <div class="ico-form-title pull-left"></div>
         <h2 class="form-title">Inquietudes?</h2>
     </div>
     <div class="formhome">
@@ -35,10 +35,9 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-xs-12">
-                        <button class="pull-right btn  send" type="submit"><img src="./img/icono-white-plane.png" style="margin-right: -17px;" alt=""></button>
+                        <button class="pull-right btn send ico-send" type="submit"></button>
                     </div>
                 </div>
             </div>
         </form>
     </div>
-</div>

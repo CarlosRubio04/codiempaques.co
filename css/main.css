@@ -1,5 +1,5 @@
 body {
-  color: #333;
+  color: color: #889196;
   font-family: 'Din_Regular',Sans-Serif;
   font-size: 14px;
   line-height: 1.42857;
@@ -224,16 +224,6 @@ background-color: #70767B;
   color: #70767B;
 }
 
-span {
-  text-align: center;
-  background-color: #6b797f;
-  color: #fff;
-  padding: 3px;
-  margin: 0 3px 0 0;
-  text-align: center;
-  font-size: 25px;
-}
-
 /*REDES*/
 
 #back-content .social-bar  {
@@ -307,20 +297,20 @@ span {
   background-image: url(../img/icono-ins-gray.png);
 }
 
-#back-content ul {
+#back-content section.social-bar ul {
   border: 2px solid #70767B;
   padding: 10px 5px 0px; 
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
-#back-content ul > li {
+#back-content section.social-bar ul > li {
   border-right: 1px solid #70767B;
   list-style: none;
   display: inline-block;
 }
 
-#back-content ul > li + li + li + li {
+#back-content section.social-bar ul > li + li + li + li {
   border-right: none;
 }
 
@@ -365,4 +355,63 @@ span {
   border: 2px solid #70767B;
   padding: 15px 15px 0px 15px;
   margin-top: 52px;
+}
+
+.ico-send {
+	background-image: url(../img/icono-white-plane.png);
+	width: 45px;
+	height: 47px;
+	margin-top: 16px;
+}
+
+.ico-send:hover {
+	background-image: url(../img/icono-gray-plane.png);
+}
+#back-content .ico-send{
+	background-image: url(../img/icono-gray-plane.png);
+}
+#back-content .ico-send:hover{
+	background-image: url(../img/icono-white-plane.png);
+}
+.ico-form-title {
+	background-image: url(../img/icono-cuadro-gray.png);
+	width: 57px;
+	height: 21px;
+}
+#back-content .ico-form-title {
+	background-image: url(../img/icono-cuadro-white.png);
+	width: 57px;
+	height: 21px;
+	
+}
+
+.content-info {
+	font-size: 18px;
+}
+
+.content-info ul {
+	padding-left: 0px;
+}
+.content-info h3 {
+  color: #7E7171;
+}
+.title-info {
+font-weight: 800;
+  color: #7E7171;
+  
+  padding-top: 80px;
+  text-align: left;
+}
+
+.content-info ul {
+	padding-left: 0px;
+}
+.title-info h1{
+  font-size: 130px;
+  line-height: 0.4;
+}
+
+.title-info span{
+  font-size: 54px;
+  line-height: 0.4;
 }
