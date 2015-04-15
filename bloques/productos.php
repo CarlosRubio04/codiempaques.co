@@ -10,9 +10,11 @@
                     <div class="p-item">
                         <div class="pthumb">
                             <div class="mask">
-                                <h3><a href="port-single.html">Desayunos</a></h3>
-                                <a class="prettyPhoto" rel="prettyPhoto[gallery5]" href="./img/1.jpg"><i class="fa fa-search zoom"></i></a>
-                                <a class="info" href="port-single.html"><i class="fa fa-info-circle info"></i></a>
+                                <h3>Laminados</h3>
+                                <a href="./img/3.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="People walking down stairs" class="info" data-footer="Big ass waterfall- using footer instead of title">
+                                <i class="fa fa-search zoom"></i>
+                                </a>
+                               
                                 <span class="glass"></span>   
                             </div>
                             <img src="./img/1.jpg">

@@ -5676,7 +5676,7 @@ button.close {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1040;
+  z-index: 1050;
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
@@ -5717,11 +5717,14 @@ button.close {
   outline: 0;
 }
 .modal-backdrop {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  background-color: #000000;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1040;
+    background-color: #000;
+}
 }
 .modal-backdrop.fade {
   opacity: 0;
