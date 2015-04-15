@@ -238,16 +238,19 @@ background-color: #70767B;
 }
 .search {
 	float: left;
-	padding-top: 5px; 
+	padding-top: 2px; 
 	color: #fff;
 }
 .search input{
-  border: 1px solid #fff;; 
-	width: 90px;
+border: 1px solid #fff;; 
+	width: 95px;
+float: left;
+margin-top: -2px;
 }
 .ico-search {
   background-image: url(../img/icono-search-white.png);
   float: right;
+  margin-top: -6px;
 }
 
 .ico-face {
@@ -264,7 +267,7 @@ background-color: #70767B;
 
 .social-bar ul {
   border: 2px solid #fff;
-  padding: 5px 0px 0px 2px; 
+  padding: 10px 0px 0px 4px; 
   margin-bottom: 0px;
   margin-top: -200px;
 }
