@@ -13,7 +13,6 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
     
     <style>
-        
         .loader{
         background: rgba(0,0,0,0.7);
         position: fixed;
@@ -27,16 +26,5 @@
         top: 50%;
         margin: -25px 0 0 -25px;
         }
-        .loader .contentss {
-        position: relative;
-        text-align: center;
-        color: #fff;
-        margin-left: 10px;
-        top: 50%;
-        }
     </style>
-
-    
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>

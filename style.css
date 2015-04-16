@@ -31,12 +31,60 @@ body.back-home {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.wrap-content {
+	padding-bottom: 30px; 
+	padding-top: 30px;
+}
 #back-content {
   background-color: #fff !important;
   background-image: none;
 }
 
+
+#back-content .headers a.navbar-brand {
+display: block;
+}
+.headers a.navbar-brand {
+display: none;
+}
+
+
+#back-content .headers ul.nav {
+margin-top: 30px;
+margin-left: 150px;
+}
+
+.headers ul.nav {
+margin-top: 30px;
+margin-left: 450px;
+}
+
+.headers ul.nav li {
+padding-top: 23px;
+}
+
+#back-content .headers ul.nav li {
+padding-top: 0px;
+}
+
+#back-content .logohome {
+	display: none;
+}
+
+.logohome {
+	margin-left: 0px; 
+	padding-left: 56px; 
+	margin-top: -40px;
+	float: left;
+}
+
+.navbar-default {
+	background-color: inherit;
+}
+
+#back-content .navbar-default {
+background-color: #70767B;
+}
 .form-control::-moz-placeholder {
   color: #fff;
 }
@@ -251,7 +299,7 @@ background-color: #70767B;
 }
 .search input{
 border: 1px solid #fff;; 
-	width: 95px;
+width: 95px;
 float: left;
 margin-top: -2px;
 }
@@ -324,13 +372,14 @@ margin-top: -2px;
 }
 
 #back-content .search {
+ 
 	float: left; 
 	padding-top: 5px; 
 	color: #70767B;
 }
 
 #back-content .search input {
-	border: none; 
+	border: 1px solid #70767B;
 	width: 90px;
 	color: #70767B;
 }
@@ -380,7 +429,7 @@ margin-top: -2px;
 	background-image: url(./img/icono-gray-plane.png);
 }
 #back-content .ico-send:hover{
-	background-image: url(./img/icono-white-plane.png);
+	background-image: url(./img/icono-whitehover-plane.png);
 }
 .ico-form-title {
 	background-image: url(./img/icono-cuadro-gray.png);
