@@ -6,7 +6,7 @@
                     <form id="contactenosfoot" name="contactenosfoot" novalidate="novalidate">
                         <div class="form-group">
                             <div class="row">
-                                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                                     <label for="nombreC">NOMBRE</label>
                                     <input type="text" required="" id="nombre1" name="nombreC" class="form-control contact"  aria-required="true">
                                 </div>

@@ -489,8 +489,8 @@
             </div>
         </div>
         <!--end:col-->
-        <div class="col-md-4">
-            <?php require_once('bloques/form-inquietudes.php'); ?>
+        <div class="col-md-4 col-lg-4 col-xm-12 col-sm-1">
+            
         </div>
     </div>
 </div>
