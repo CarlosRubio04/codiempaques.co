@@ -416,3 +416,7 @@ font-weight: 800;
   font-size: 54px;
   line-height: 0.4;
 }
+.iceGmpMapTd div#gmap { 
+  height:200px; 
+  width:200px; 
+} 
