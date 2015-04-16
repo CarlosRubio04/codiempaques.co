@@ -55,7 +55,7 @@
                     <script>
                         $(document).ready(function(){
                           var url = GMaps.staticMapURL({
-                            size: [715, 200],
+                            size: [580, 200],
                             lat: 4.6302347012861516,
                             lng: -74.12072724999996,
                             markers: [
