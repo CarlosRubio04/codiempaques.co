@@ -16,10 +16,10 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="index.php">Inicio <span class="sr-only">(current)</span></a></li>
-                            <li><a href="index.php?content=info">Info</a></li>
-                            <li><a href="index.php?content=productos">Productos</a></li>
-                            <li><a href="index.php?content=contactenos">Contacto</a></li>
+							<li  <?php if(!isset($_REQUEST['content'])){echo('class="active"');} ?>><a href="index.php">Inicio <span class="sr-only">(current)</span></a></li>
+                            <li <?php if($_REQUEST['content']=='info'){echo(' class="active"');} ?>><a href="index.php?content=info">Info</a></li>
+                            <li <?php if($_REQUEST['content']=='productos'){echo(' class="active"');} ?>><a href="index.php?content=productos">Productos</a></li>
+                            <li <?php if($_REQUEST['content']=='contactenos'){echo(' class="active"');} ?>><a href="index.php?content=contactenos">Contacto</a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -34,7 +34,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="logohome"> 
-                    <a href="#"><img src="./img/logox2-gray.png" /></a>
+                    <a href="#"><img class="img-responsive" src="./img/logox2-gray.png" /></a>
                 </div>
             </div>
         </div>

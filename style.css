@@ -24,12 +24,24 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, a, p {
   padding-top: 10px;
 }
 
+#back-content .headers ul.nav li a:hover {
+	color: #FFF;
+	background-color: #60656A;
+}
+
+
+
+.headers ul.nav li a:hover {
+	color: #FFF;
+	background-color: #60656A;
+}
 
 body.back-home {
   background-color: transparent;
   background-image: url(./img/fondo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: right bottom;
 }
 .wrap-content {
 	padding-bottom: 30px; 
@@ -48,34 +60,20 @@ display: block;
 display: none;
 }
 
-
-#back-content .headers ul.nav {
-margin-top: 30px;
-margin-left: 150px;
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
 }
 
-.headers ul.nav {
-margin-top: 30px;
-margin-left: 450px;
+.navbar .navbar-collapse {
+    text-align: center;
 }
 
-.headers ul.nav li {
-padding-top: 23px;
-}
 
-#back-content .headers ul.nav li {
-padding-top: 0px;
-}
+
 
 #back-content .logohome {
 	display: none;
-}
-
-.logohome {
-	margin-left: 0px; 
-	padding-left: 56px; 
-	margin-top: -40px;
-	float: left;
 }
 
 .navbar-default {
@@ -469,6 +467,12 @@ font-weight: 800;
 
 .error {
 	margin-top: 10px;
+	color: #fff;
+}
+
+#back-content .error {
+color: #6F7A7F;
+	
 }
 
 .iceGmpMapTd div#gmap { 
