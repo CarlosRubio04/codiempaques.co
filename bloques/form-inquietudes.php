@@ -6,20 +6,20 @@
     <form id="contactenosfoot" name="contactenosfoot" novalidate="novalidate">
         <div class="form-group">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <input type="text" required="" id="nombre1" name="nombre1" class="form-control" placeholder="Nombre" aria-required="true">
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <input type="text" required="" id="apellido1" name="apellido1" placeholder="Apellido" class="form-control" aria-required="true">
                 </div>
             </div>
         </div>
         <div class="form-group">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <input type="email" required="" id="email1" name="email1" placeholder="E-mail" class="form-control" aria-required="true">
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <input type="text" required="" id="telefono1" name="telefono1" placeholder="Teléfono" class="form-control" aria-required="true">
                 </div>
             </div>
@@ -38,5 +38,5 @@
                 </div>
             </div>
         </div>
-    </form >
+    </form>
 </div>

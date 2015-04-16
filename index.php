@@ -33,8 +33,6 @@
                         require_once('bloques/home.php');
                         }elseif($_REQUEST['content']=='productos'){
                         require_once('bloques/productos.php');
-                        }elseif($_REQUEST['content']=='indes'){
-                        require_once('bloques/indes.php');
                         }elseif($_REQUEST['content']=='info'){
                         require_once('bloques/info.php');
                         }elseif($_REQUEST['content']=='contactenos'){

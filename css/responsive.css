@@ -57,6 +57,9 @@
 	padding-top: 2px; 
 	color: #fff;
 	}
+	#back-content .formhome {
+    margin-top: 3px;
+	}
 }
 @media only screen and (min-width: 240px) and (max-width: 319px) {
 	.social-bar ul > li {
@@ -84,6 +87,9 @@
 	  width: 100px;
 	  float: left;
 	  margin-right: 10px;
+	}
+	#back-content .formhome {
+    margin-top: 3px;
 	}
 
 }
