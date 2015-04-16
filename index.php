@@ -52,7 +52,7 @@
                     <script src="js/vendor/owl.carousel.js"></script>
                     <script src="js/main.js"></script>
                     <script src="js/ekko-lightbox.js"></script>
-                    <script>
+                   <!-- <script>
                         $(document).ready(function(){
                           var url = GMaps.staticMapURL({
                             size: [580, 200],
@@ -64,7 +64,27 @@
                           });
                           $('<img/>').attr('src', url).appendTo('#map');
                         });
-                      </script>
+                    </script>-->
+
+                    <script type="text/javascript">
+                        var map;
+                        
+                        $(document).ready(function(){
+                          map = new GMaps({
+                            el: '#map',
+                            lat: 4.6302347012861516,
+                            lng:-74.12072724999996,
+                          });
+                          map.addMarker({
+                            lat:  4.6302347012861516,
+                            lng: -74.12072724999996,
+                            title: 'Marker with InfoWindow',
+                            infoWindow: {
+                              content: '<p>Codiempaques</p>'
+                            }
+                          });
+                        });
+                    </script>
                       
 
 
