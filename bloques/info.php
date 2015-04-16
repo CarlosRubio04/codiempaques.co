@@ -1,13 +1,13 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <img style="width: 100%;" src="./img/info2.jpg" alt="">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <img  class="img-responsive" src="./img/info2.jpg" alt="">
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 title-info">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 title-info">
                 <h1>CODI <br><span>EMPAQUES</span></h1>
             </div>
-            <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 content-info" style="margin-top: 60px;">
+            <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 content-info">
                 <ul>
                     <li>Creada en Colombia para producir diversos tipos de empaques, con una gran variedad en desarrollos y aplicaciones.</li>
                     <li>Rollos, láminas, bolsas y precortes de papel mineral antigraso biodegradable.</li>

@@ -2,7 +2,7 @@ body {
   color: color: #889196;
   font-family: 'Din_Regular',Sans-Serif;
   font-size: 14px;
-  line-height: 1.42857;
+  line-height: 1;
 }
 
 bodys .helvetica {
@@ -390,9 +390,6 @@ margin-top: -2px;
 	font-size: 18px;
 }
 
-.content-info ul {
-	padding-left: 0px;
-}
 .content-info h3 {
   color: #7E7171;
 }
@@ -403,10 +400,6 @@ font-weight: 800;
   padding-top: 80px;
   text-align: left;
 }
-
-.content-info ul {
-	padding-left: 0px;
-}
 .title-info h1{
   font-size: 130px;
   line-height: 0.4;
@@ -415,4 +408,8 @@ font-weight: 800;
 .title-info span{
   font-size: 54px;
   line-height: 0.4;
+}
+
+.error {
+	margin-top: 10px;
 }

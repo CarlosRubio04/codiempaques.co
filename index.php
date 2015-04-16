@@ -1,4 +1,4 @@
-<?php //require_once('includes/conn.php'); ?>
+<?php require_once('includes/easily.php'); ?>
 <!doctype html>
 <!--[if lt IE 7]>      
 <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="">
@@ -43,12 +43,15 @@
                         ?>
                       </section>  
                     <?php require_once('bloques/footer.php'); ?>
+                    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.js"></script>  
                     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
                     <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
                     <script src="js/vendor/gmaps.js"></script>
                     <script src="js/plugins.js"></script>
                     <script src="js/vendor/owl.carousel.js"></script>
                     <script src="js/main.js"></script>
+                    <script src="js/custom.js"></script>
+                    <script src="js/bootbox.js"></script>
                     <script src="js/ekko-lightbox.js"></script>
                     <script>
                         $(document).ready(function(){
