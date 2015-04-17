@@ -72,24 +72,7 @@
     margin-top: 60px;
     margin-bottom: 30px;
   }
-  .social-bar ul {
-margin-top: -326px; 
-margin-right: 100px; 
-margin-left: 100px;
-  }
-  .headers ul {
-    padding: 0px 113px;
-    background-color: #fff;
-  }
   
-  .headers ul.nav li a {
-    padding-top: 26px;
-    padding-bottom: 15px;
-    color: #111;
-  }
-  .search input {
-	width: 260px;
-  }
 
 }
 

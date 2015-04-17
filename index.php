@@ -45,9 +45,9 @@
 					<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 					<script src="js/vendor/gmaps.js"></script>
 					<script src="js/vendor/owl.carousel.js"></script>
-					<script src="js/main.js"></script>
 					<script src="js/custom.js"></script>
 					<script src="js/bootbox.js"></script>
 					<script src="js/ekko-lightbox.js"></script>
+					<script src="js/main.js"></script>
 				</body>
 			</html>
