@@ -89,20 +89,7 @@ $(document).ready(function () {
 
 });
 
-/*Google MAPS*/
 
-$(document).ready(function(){
-	  var url = GMaps.staticMapURL({
-	    size: [580, 200],
-	    lat: 4.6302347012861516,
-	    lng: -74.12072724999996,
-	    markers: [
-	      {lat: 4.6302347012861516, lng: -74.12072724999996},
-	    ]
-	  });
-	  $('<img/>').attr('src', url).appendTo('#map');
-	});
-	
 /*Pop Up Modal Galería*/
 
 $(document).ready(function ($) {
@@ -151,3 +138,22 @@ $(document).ready(function ($) {
 
 	});
 
+/*Google MAPS*/
+
+var map;
+
+$(document).ready(function(){
+  map = new GMaps({
+    el: '#map',
+    lat: 4.6302347012861516,
+    lng:-74.12072724999996,
+  });
+  map.addMarker({
+    lat:  4.6302347012861516,
+    lng: -74.12072724999996,
+    title: 'Marker with InfoWindow',
+    infoWindow: {
+      content: '<p>Codiempaques</p>'
+    }
+  });
+});
