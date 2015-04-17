@@ -447,11 +447,24 @@ margin-left: 14%;
     display: inline-block;
     list-style: outside none none;
   }
+   #back-content .navbar-brand {
+	 margin-top: -15px; 
+	 width: 170px;
+ }
+ 
+ #back-content .social-bar {
+ margin-bottom: 0px;
+ }
 
 
 }
 
 @media only screen and (min-width: 240px) and (max-width: 319px) {
+ #back-content .navbar-brand {
+	 margin-top: -15px; 
+	 width: 170px;
+ }
+	
 	.navbar-default {
     background-color: #70767B;
     border-color: #60656A;
