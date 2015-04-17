@@ -29,7 +29,7 @@
         </div>
     </div>
 </header>
-<section class="logohome">
+<section id="logohome">
     <div class="container">
         <div class="row">
             <div class="col-md-4">

@@ -126,15 +126,9 @@ background-color: #70767B;
   margin-bottom: 50px;
 }
 
-.container-fluid {
-  height: 100px;
-  margin: 0 auto;
-}
 
-.copyhome {
-  padding-left: 50px;
-  padding-top: 30px;
-}
+
+
 
 .copyhome h2 {
   margin-top: 0px;
@@ -323,7 +317,7 @@ margin-top: -2px;
   border: 2px solid #fff;
   padding: 10px 0px 0px 4px; 
   margin-bottom: 0px;
-  margin-top: -200px;
+
 }
 
 .social-bar ul > li {
