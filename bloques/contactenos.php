@@ -1,7 +1,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-4  col-md-4 col-lg-4 formulario-contactenos">
+            <div class="col-xs-12 col-sm-4  col-md-4  col-lg-4 formulario-contactenos">
                 <div class="form-contact">
                     <form id="contactenos" name="contactenos" novalidate="novalidate">
                         <div class="form-group">
@@ -50,19 +50,19 @@
                 </div>
             </div>
             <!-- mapa-->
-            <div class="col-md-8">
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-12">
                         <h1 class="contacto">CONTACTO</h1>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-12">
                         <h1 class="codi">CODIEMPAQUES</h1>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-12">
                         <div id="map"></div>
                     </div>
                 </div>
