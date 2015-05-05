@@ -1,8 +1,8 @@
 <?php 
 	$db_server = "localhost";
-	$db_user = "desarrol";
-	$db_password = '`A2/HH!0[[';
-	$db_name = "desarrol_dezea";
+	$db_user = "desarrol_codiemp";
+	$db_password = '0DOSLmk$?TsI';
+	$db_name = "desarrol_codi";
 	
 	require_once('conn.php'); 
 	
@@ -16,11 +16,11 @@
 	
 	$custom_from = "no-reply@codiempaques.com"; // este es el correo remitente.
 	
-	define(URL_NOTIFICACION,"http://desarrollo.closerdesign.co/cd/email/index.html");
+	define(URL_NOTIFICACION,"http://desarrollo.closerdesign.co/codi/email/index.html");
 	
 	define(EMAIL_NOTIFICACIONES,"camilo@closerdesign.co"); // este deberia ser el mail con el que se hacen las pruebas
 	
-	define(FROM_NAME,"Webmaster Dezea"); // este es el nombre del remitente
+	define(FROM_NAME,"Webmaster Codiempaques"); // este es el nombre del remitente
 	/////////////////////////////////////////////////////////
 ?>
 

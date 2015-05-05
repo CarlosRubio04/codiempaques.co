@@ -21,7 +21,6 @@
 					apellido,
 					telefono,
 					email,
-					tipo,
 					mensaje,
 					optin
 				) VALUES (
@@ -29,7 +28,6 @@
 					'$apellido',
 					'$telefono',
 					'$email',
-					'$tipo',
 					'$mensaje',
 					'1'
 				)

@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="fonts/din_regular.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="css/variables.less" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
 	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
+	<link rel="stylesheet" href="js/vegas/vegas.css">
     
     <style>
         .loader{

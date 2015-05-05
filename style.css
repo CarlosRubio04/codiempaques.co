@@ -29,8 +29,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, a, p {
   background-color: #60656A;
 }
 
-
-
 .headers ul.nav li a:hover {
   color: #FFF;
   background-color: #60656A;
@@ -43,6 +41,7 @@ body.back-home {
   background-repeat: no-repeat;
   background-position: right bottom;
 }
+
 .wrap-content {
   padding-bottom: 30px; 
   padding-top: 30px;

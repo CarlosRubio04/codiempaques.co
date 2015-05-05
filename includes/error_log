@@ -1,0 +1,1 @@
+[21-Apr-2015 18:13:46 America/Chicago] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'desarrol_codi'@'localhost' to database 'desarrol_codi' in /home/desarrol/public_html/codi/includes/conn.php on line 2

@@ -14,13 +14,13 @@
             <html class="no-js" lang="es">
                 <!--<![endif]-->
                 <?php require_once('bloques/head.php'); ?>
-                <body id="<?php if(isset($_REQUEST['content'])){echo "back-content";}?>" class="back-home">
+                <body id="<?php if(isset($_REQUEST['content'])){echo "back-content";}else{echo "vegashome";}?>" class="back-home">
                     <div class="loader">
                         <img src="img/ajax-loader.gif" />
                     </div>
                     <?php 
 	                    require_once('bloques/header.php');
-						require_once('bloques/redes.php'); 
+						//require_once('bloques/redes.php'); 
 	                ?>
 	                <section class="wrap-content">
 						<?php
@@ -49,5 +49,17 @@
 					<script src="js/bootbox.js"></script>
 					<script src="js/ekko-lightbox.js"></script>
 					<script src="js/main.js"></script>
+					<script src="js/vegas/vegas.js"></script>
+					
+					<script >
+						$('body#vegashome').vegas({
+						    overlay: "js/vegas/overlays/01.png",
+						    slides: [
+						        { src: 'img/fondo.jpg' },
+						        { src: 'img/fondo1.jpg' }
+						    ]
+						   
+						});
+					</script>
 				</body>
 			</html>

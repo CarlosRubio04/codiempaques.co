@@ -20,6 +20,9 @@
                             <li <?php if($_REQUEST['content']=='info'){echo(' class="active"');} ?>><a href="index.php?content=info">Info</a></li>
                             <li <?php if($_REQUEST['content']=='productos'){echo(' class="active"');} ?>><a href="index.php?content=productos">Productos</a></li>
                             <li <?php if($_REQUEST['content']=='contactenos'){echo(' class="active"');} ?>><a href="index.php?content=contactenos">Contacto</a></li>
+                            <li ><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
+                            <li ><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
+                            <li ><a href="#"><i class="fa fa-instagram fa-lg"></i></a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->

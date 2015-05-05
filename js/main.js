@@ -20,9 +20,6 @@ jQuery(document).ready(function (e) {
     });
 });
 
-
-
-
 $(document).ready(function () {
     $(".list-pro").owlCarousel({
         navigation: false,
@@ -35,9 +32,6 @@ $(document).ready(function () {
     });
 
 });
-
-
-
 
 $(document).ready(function () {
 
